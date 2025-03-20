@@ -28,6 +28,10 @@ li{
   display: inline;
   margin: 20px;
 }
+.CelinderAll{
+  position: relative;
+  top:70px;
+}
 .back{
   background-image:url("./src/assets/back.png") ;
   background-color:rgb(11, 102, 145);
@@ -89,21 +93,34 @@ h4{
 
 .c_1,.c_2,.c_3,.c_4{
   
+  font-size: x-small;
+width: 300px;
+padding:5px;
+margin:1px;
 border: #000;
   border-radius: 10px;
   display: inline-block;
-  margin: 10px;
   border: 80px;
-  width:300px;
-  height: 180px;
+ 
+}
+.imgincard{
+  width:200px;
+}
+.cardsss{
+  margin: 5x;
+  width: 40px;
+  display: inline-block;
+
 }
 .footer{
   background-image:url("./src/assets/background.png");
  }
+ 
 .CS_1,.CS_2,.CS_3,.CS_4{
   display: inline-block;
-  margin: 10px;
-  border: 80px;
+  margin: 20px;
+  border-radius: 5px;
+  border-color: black;
   width:280px;
   height: 180px;
 }
@@ -230,6 +247,10 @@ body {
 .box{
   
   background-color:white;
+  position: relative;
+  bottom: 40px;
+  height: 200px;
+  padding: 40px;
   display: inline-block;
   border-radius: 10px;
   color: #000;
@@ -253,8 +274,8 @@ table {
   font-size:15px;
 }
 .foot{
-  background-image:url("./src/assets/background.png") ;
-  background-color: #c5e2f5;
+  background-image:url("./src/assets/backgraund.png");
+ height: 530px;
 }
 #root {
   max-width: 1280px;

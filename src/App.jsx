@@ -112,7 +112,7 @@ cost="$1245"
 />
 </div>
 <h4>Most Popular Destinations</h4>
-
+<div class="cardsss">
 <div class="c_1">
 <Card
  src={baliImage}
@@ -145,6 +145,8 @@ N="4D3N"
 cost="$789"
 /></div>
 </div>
+</div>
+
 
 <h4>Popular Stays</h4>
 <div class="CS_1">
@@ -153,7 +155,7 @@ src={Ma}
 para="Entire bungalow"
 titel="Matterhorn Suites"
 cost="$575/night"
-star="4.9(60 reviews)"
+star="4.9⭐(60 reviews)"
 />
 </div>
 <div class="CS_2">
@@ -162,7 +164,7 @@ src={D}
 para="2-story beachfront suite"
 titel="Discovery Shores"
 cost="$360/night"
-star="4.8(116 reviews)"
+star="4.8⭐(116 reviews)"
 />
 </div>
 <div class="CS_3">
@@ -171,7 +173,7 @@ src={ko}
 para="Single deluxe hut"
 titel="Arctic Hut"
 cost="$420/night"
-star="4.7(78 reviews)"
+star="4.7⭐(78 reviews)"
 /></div>
 <div class="CS_4">
 <CardStyle
@@ -179,7 +181,7 @@ src={L}
 para="Deluxe King Room"
 titel="Lake Louise Inn"
 cost="$244/night"
-star="4.6(63 reviews)"
+star="4.6⭐(63 reviews)"
 /></div>
 
 <div className="foot">
