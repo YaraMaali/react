@@ -14,12 +14,17 @@ import palawanImage from "../src/assets/Pala.png";
 
 
 
+import Ma from "../src/assets/Ma.png";
+import D from "../src/assets/D.png";
+import ko from "../src/assets/A.png";
+import L from "../src/assets/L.png";
+
 function App() {
   const [count, setCount] = useState(0)
   return (
 <div>
 
- <Nav/>
+<Nav/>
 <Logo/>
 <Bloback/>
 
@@ -144,7 +149,7 @@ cost="$789"
 <h4>Popular Stays</h4>
 <div class="CS_1">
 <CardStyle
-image="./src/assets/Ma.png"
+src={Ma}
 para="Entire bungalow"
 titel="Matterhorn Suites"
 cost="$575/night"
@@ -153,7 +158,7 @@ star="4.9(60 reviews)"
 </div>
 <div class="CS_2">
 <CardStyle
-image="./src/assets/D.png"
+src={D}
 para="2-story beachfront suite"
 titel="Discovery Shores"
 cost="$360/night"
@@ -162,7 +167,7 @@ star="4.8(116 reviews)"
 </div>
 <div class="CS_3">
 <CardStyle
-image="./src/assets/A.png"
+src={ko}
 para="Single deluxe hut"
 titel="Arctic Hut"
 cost="$420/night"
@@ -170,7 +175,7 @@ star="4.7(78 reviews)"
 /></div>
 <div class="CS_4">
 <CardStyle
-image="./src/assets/L.png"
+src={L}
 para="Deluxe King Room"
 titel="Lake Louise Inn"
 cost="$244/night"
